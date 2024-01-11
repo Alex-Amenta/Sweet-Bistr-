@@ -1,68 +1,83 @@
-"use client"
+"use client";
+
+export interface Links {
+  name: string;
+  href: string;
+}
 
 import Link from "next/link";
 import styles from "./Navbar.module.css";
-import Image from "next/image";
 import { useState } from "react";
-import MenuIcon from '@mui/icons-material/Menu';
-import CloseIcon from '@mui/icons-material/Close';
+import MenuIcon from "@mui/icons-material/Menu";
+import CloseIcon from "@mui/icons-material/Close";
+import { usePathname } from "next/navigation";
+
+const homeLinks: Links[] = [
+  { name: "Inicio", href: "/" },
+  { name: "Menu", href: "/#menu" },
+  { name: "Sobre Nosotros", href: "/#sobre-nosotros" },
+  { name: "Contacto", href: "/#contacto" },
+];
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+
+  const pathname = usePathname();
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
   return (
-    <nav
-      id={styles.headerNav}
-      className="sticky top-0 z-50 flex items-center justify-between text-white px-9 py-1 md:px-[6.4rem]"
-    >
-      <div className="flex items-center space-x-3 rtl:space-x-reverse">
-        <Link href="/">
-            <img
-              className="w-20"
-              src="/logo-bistro.png"
-              alt="Logo de Sweet Bistró"
-            />
-        </Link>
-      </div>
-      <div className="md:hidden relative">
-        <button onClick={toggleMenu} className="text-white focus:outline-none">
-          {isOpen ? <CloseIcon/> : <MenuIcon fontSize="large"/>}
-        </button>
-      </div>
-      <div
-        className={`${
-          isOpen ? "flex" : "hidden"
-        } md:flex items-center justify-center md:gap-x-7 mt-4 md:mt-0`}
-      >
-        <ul className="md:flex-row items-center justify-center gap-x-7">
-          <li>
-            <Link href="/#menu" className="hover:underline decoration-yellow-400"
-                onClick={toggleMenu}>
-                Menu
+    <>
+      {pathname !== "/menu" && (
+        <nav
+          id={styles.headerNav}
+          className="sticky top-0 z-50 flex flex-row md:flex-row items-center justify-between text-white px-9 py-1 md:px-[6.4rem]"
+        >
+          <div className="flex items-center space-x-3 rtl:space-x-reverse">
+            <Link href="/">
+              <img
+                className="w-20"
+                src="/logo-bistro.png"
+                alt="Logo de Sweet Bistró"
+              />
             </Link>
-          </li>
-          <li>
-            <Link href="/#sobre-nosotros" className="hover:underline decoration-yellow-400"
-                onClick={toggleMenu}>
-             
-                Sobre Nosotros
-           
-            </Link>
-          </li>
-          <li>
-            <Link href="/#contacto" className="hover:underline decoration-yellow-400"
-                onClick={toggleMenu}>
-             
-                Contacto
-            </Link>
-          </li>
-        </ul>
-      </div>
-    </nav>
+          </div>
+          <div className="md:hidden relative">
+            <button onClick={toggleMenu}>
+              {isOpen ? null : <MenuIcon fontSize="large" />}
+            </button>
+          </div>
+          <div
+            className={`${
+              isOpen ? "flex" : "hidden"
+            } absolute top-0 right-0 pl-14 pr-5 pb-[8rem] pt-5 rounded-md bg-black/95 shadow-md shadow-white/30 md:flex items-center justify-center md:bg-transparent md:shadow-none md:p-7 transition-opacity transition-max-h ease-in-out duration-300`}
+          >
+            <ul className="flex flex-col gap-y-6 items-start w-full md:flex-row md:items-center justify-center gap-x-7">
+              {isOpen && (
+                <button
+                  onClick={toggleMenu}
+                  className="self-end mb-8 md:hidden"
+                >
+                  <CloseIcon fontSize="large" />
+                </button>
+              )}
+              {homeLinks.map((link, index) => (
+                <li key={index} onClick={toggleMenu}>
+                  <Link
+                    href={link.href}
+                    className={"hover:underline decoration-yellow-400"}
+                  >
+                    {link.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </nav>
+      )}
+    </>
   );
 };
 

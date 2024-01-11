@@ -1,7 +1,6 @@
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import PhoneIcon from "@mui/icons-material/Phone";
-import EmailIcon from "@mui/icons-material/Email";
 import Image from "next/image";
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
@@ -10,7 +9,7 @@ import LocalFireDepartmentIcon from "@mui/icons-material/LocalFireDepartment";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-black rounded-lg shadow m-4">
+      <footer id="contacto" className="bg-black shadow">
         <section className="w-full max-w-screen-2xl mx-auto p-4 md:py-8">
           <article className="lg:flex lg:items-center lg:justify-between">
             <a
