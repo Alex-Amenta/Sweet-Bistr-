@@ -1,16 +1,9 @@
 import { NextResponse } from "next/server";
 import { promises as fsPromises } from "fs";
 import path from "path";
-import {
-  Carne,
-  Entrada,
-  Lomitos,
-  Pastas,
-  PreciosEntrada,
-  Salsa,
-} from "@/types/data";
+import { MenuData } from "@/types/data";
 
-export async function getData() {
+export async function getData(): Promise<MenuData> {
   try {
     // Construye la ruta completa al archivo JSON
     const filePath = path.resolve(
@@ -30,76 +23,77 @@ export async function getData() {
     return jsonData;
   } catch (error) {
     console.log("Error loading data", error);
+    throw error;
   }
 }
 
-export async function getPricesEntradas() {
-  const allData = await getData();
+// export async function getPricesEntradas() {
+//   const allData = await getData();
 
-  if (allData.entradas && allData.entradas.precios) {
-    const entradas = allData.entradas;
-    const preciosEntradas: PreciosEntrada[] = entradas.reduce(
-      (acc: PreciosEntrada[], entrada: Entrada) => {
-        if (entrada.precios) {
-          acc.push(...entrada.precios);
-        }
-        return acc;
-      },
-      []
-    );
+//   if (allData.entradas && allData.entradas.precios) {
+//     const entradas = allData.entradas;
+//     const preciosEntradas: PreciosEntrada[] = entradas.reduce(
+//       (acc: PreciosEntrada[], entrada: Entrada) => {
+//         if (entrada.precios) {
+//           acc.push(...entrada.precios);
+//         }
+//         return acc;
+//       },
+//       []
+//     );
 
-    return preciosEntradas;
-  } else {
-    console.log('"precios" in entradas not found');
-    return [];
-  }
-}
+//     return preciosEntradas;
+//   } else {
+//     console.log('"precios" in entradas not found');
+//     return [];
+//   }
+// }
 
-export async function getPlatosPrincipales() {
-  const allData = await getData();
+// export async function getPlatosPrincipales() {
+//   const allData = await getData();
 
-  if (allData.platosPrincipales) {
-    return allData.platosPrincipales;
-  } else {
-    console.log("platosPrincipales not found");
-    return {};
-  }
-}
+//   if (allData.platosPrincipales) {
+//     return allData.platosPrincipales;
+//   } else {
+//     console.log("platosPrincipales not found");
+//     return [];
+//   }
+// }
 
-export async function getSalsas() {
-  const allData = await getData();
+// export async function getSalsas() {
+//   const allData = await getData();
 
-  if (allData.platosPrincipales && allData.platosPrincipales.salsas) {
-    const pastas: Pastas[] = allData.platosPrincipales.pastas;
-    const salsas: Salsa[] = pastas.reduce((acc: Salsa[], pasta: Pastas) => {
-      if (pasta.salsas) {
-        acc.push(...pasta.salsas);
-      }
-      return acc;
-    }, []);
+//   if (allData.platosPrincipales && allData.platosPrincipales.salsas) {
+//     const pastas: Pastas[] = allData.platosPrincipales.pastas;
+//     const salsas: Salsa[] = pastas.reduce((acc: Salsa[], pasta: Pastas) => {
+//       if (pasta.salsas) {
+//         acc.push(...pasta.salsas);
+//       }
+//       return acc;
+//     }, []);
 
-    return salsas;
-  } else {
-    console.log('"salsas" in pastas not found');
-    return [];
-  }
-}
+//     return salsas;
+//   } else {
+//     console.log('"salsas" in pastas not found');
+//     return [];
+//   }
+// }
 
-export async function getLomitos() {
-  const allData = await getData();
+// export async function getLomitos() {
+//   const allData = await getData();
 
-  if (allData.platosPrincipales && allData.platosPrincipales.carnes) {
-    const carnes: Carne[] = allData.platosPrincipales.carnes;
-    const lomitos: Lomitos[] = carnes.reduce((acc: Lomitos[], carne: Carne) => {
-      if (carne.lomitos) {
-        acc.push(...carne.lomitos);
-      }
-      return acc;
-    }, []);
+//   if (allData.platosPrincipales && allData.platosPrincipales.carnes) {
+//     const carnes: Carne[] = allData.platosPrincipales.carnes;
+//     const lomitos: Lomitos[] = carnes.reduce((acc: Lomitos[], carne: Carne) => {
+//       if (carne.lomitos) {
+//         acc.push(...carne.lomitos);
+//       }
+//       return acc;
+//     }, []);
 
-    return lomitos;
-  } else {
-    console.log('"lomitos" in carnes not found');
-    return [];
-  }
-}
+//     return lomitos;
+//   } else {
+//     console.log('"lomitos" in carnes not found');
+//     return [];
+//   }
+// }

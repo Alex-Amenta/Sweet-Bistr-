@@ -9,7 +9,7 @@ import LocalFireDepartmentIcon from "@mui/icons-material/LocalFireDepartment";
 const Footer = () => {
   return (
     <>
-      <footer id="contacto" className="bg-black shadow">
+      <footer id="contacto" className="bg-[#121212] shadow">
         <section className="w-full max-w-screen-2xl mx-auto p-4 md:py-8">
           <article className="lg:flex lg:items-center lg:justify-between">
             <a

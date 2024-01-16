@@ -7,16 +7,7 @@
     },
     {
       "nombre": "Rabas",
-      "precios": [
-        {
-          "tipoDePorcion": "1/2 porción",
-          "precio": 2900
-        },
-        {
-          "tipoDePorcion": "Porción",
-          "precio": 5400
-        }
-      ],
+      "precio": 5400,
       "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931458/Sweet%20Bistro/Entradas/wyttexdg8dgt82zdlzbq.jpg"
     },
     {
@@ -37,253 +28,247 @@
       "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931458/Sweet%20Bistro/Entradas/rerl3qeqbzatqro7roxy.jpg"
     }
   ],
-  "platosPrincipales": {
-    "pastas": [
-      {
-        "nombre": "Ñoquis",
-        "precio": 1800,
-        "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931465/Sweet%20Bistro/Platos%20principales/Pastas/wcvtgufnl2spq2lnhw2y.jpg"
-      },
-      {
-        "nombre": "Ravioles",
-        "precio": 2200,
-        "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931469/Sweet%20Bistro/Platos%20principales/Pastas/loo5iflfvhxxjendeyz6.jpg",
-        "descripcion": "Pollo y verdura o ricotta"
-      },
-      {
-        "nombre": "Sorrentinos",
-        "precio": 2650,
-        "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931469/Sweet%20Bistro/Platos%20principales/Pastas/xly8odpopjfwcbeqeko2.jpg",
-        "descripcion": "Calabaza y muzzarella, de espinaca y parmesano, de jamon y muzzarella"
-      },
-      {
-        "nombre": "Spaguettis",
-        "precio": 1450,
-        "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931468/Sweet%20Bistro/Platos%20principales/Pastas/ewo9mm1gu9u8kxjngukv.jpg"
-      },
-      {
-        "salsas": [
-          {
-            "nombre": "Cherry, Rucula y Champignones",
-            "precio": 950,
-            "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931467/Sweet%20Bistro/Platos%20principales/Pastas/rwrntruyxjk5xlf4e52u.jpg"
-          },
-          {
-            "nombre": "Albahaca, oliva y ajo",
-            "precio": 900,
-            "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931467/Sweet%20Bistro/Platos%20principales/Pastas/gzekcn5finhfcovkmqk8.jpg"
-          },
-          {
-            "nombre": "Bolognesa",
-            "precio": 1200,
-            "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931467/Sweet%20Bistro/Platos%20principales/Pastas/rjuojzcmv2bwuajeuvuu.jpg"
-          },
-          {
-            "nombre": "Atilio",
-            "precio": 900,
-            "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931466/Sweet%20Bistro/Platos%20principales/Pastas/xdw6fqfsj27bshmszmvm.jpg"
-          },
-          {
-            "nombre": "Crema, panceta y verdeo",
-            "precio": 1450,
-            "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931469/Sweet%20Bistro/Platos%20principales/Pastas/fjs7omkgm8mxxvfwbgke.jpg"
-          },
-          {
-            "nombre": "Crema de champignones",
-            "precio": 1450,
-            "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931468/Sweet%20Bistro/Platos%20principales/Pastas/rjhgykw8v29c4ve1jhso.jpg"
-          },
-          {
-            "nombre": "Parissiene",
-            "precio": 1450,
-            "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931468/Sweet%20Bistro/Platos%20principales/Pastas/eterkrbyk5gs2pz2zjka.jpg"
-          },
-          {
-            "nombre": "Cuatro Quesos",
-            "precio": 1450,
-            "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931468/Sweet%20Bistro/Platos%20principales/Pastas/fir8xwt4clstlxbaohga.jpg"
-          },
-          {
-            "nombre": "A la crema o rosa",
-            "precio": 960,
-            "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931468/Sweet%20Bistro/Platos%20principales/Pastas/pvmobldtjlgdzt481lqa.jpg"
-          }
-        ]
-      }
-    ],
-    "carnes": [
-      {
-        "nombre": "Bife de costilla",
-        "precio": 3500,
-        "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931463/Sweet%20Bistro/Platos%20principales/Carnes/ecgainykutm7snh0blms.jpg"
-      },
-      {
-        "nombre": "Matambrito de cerdo",
-        "precio": 3000,
-        "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931464/Sweet%20Bistro/Platos%20principales/Carnes/n1nlajy1ebu8zjadztv2.jpg"
-      },
-      {
-        "nombre": "Bife de lomo",
-        "precio": 4600,
-        "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931463/Sweet%20Bistro/Platos%20principales/Carnes/ubzvauen1hxvg5fnes2k.jpg"
-      },
-      {
-        "nombre": "Bife de chorizo",
-        "precio": 5400,
-        "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931463/Sweet%20Bistro/Platos%20principales/Carnes/pdg2fipo6gqywz1c2tgs.jpg"
-      },
-      {
-        "nombre": "Pechuga",
-        "precio": 2800,
-        "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931464/Sweet%20Bistro/Platos%20principales/Carnes/pm8a8pa6b455dwfotnem.jpg"
-      },
-      {
-        "nombre": "Pata muslo",
-        "precio": 2300,
-        "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931464/Sweet%20Bistro/Platos%20principales/Carnes/iwnva48orhzxxrvt43u1.jpg"
-      },
-      {
-        "lomitos": [
-          {
-            "nombre": "Muzzarella, tomates, albahaca",
-            "precio": 3000,
-            "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931464/Sweet%20Bistro/Platos%20principales/Carnes/hkvidgucnc64tngn8ged.jpg"
-          },
-          {
-            "nombre": "Jamon y muzzarella",
-            "precio": 4800,
-            "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931463/Sweet%20Bistro/Platos%20principales/Carnes/evagjtyoujmtfrrkccdt.jpg"
-          },
-          {
-            "nombre": "Simple",
-            "precio": 4100,
-            "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931464/Sweet%20Bistro/Platos%20principales/Carnes/ay5tcu6dmvcslr21nkwu.jpg"
-          },
-          {
-            "nombre": "Completo",
-            "precio": 5100,
-            "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931464/Sweet%20Bistro/Platos%20principales/Carnes/oxdpukxw4m2pw722ukmo.jpg",
-            "descripcion": "Lechuga, tomate, jamon y queso"
-          }
-        ]
-      }
-    ],
-    "pescados": [
-      {
-        "nombre": "Merluza a la romana",
-        "precio": 2800,
-        "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931469/Sweet%20Bistro/Platos%20principales/Pescados/sf0l3lzguh2m28veeipv.jpg",
-        "descripcion": "Sin guarnición"
-      },
-      {
-        "nombre": "Merluza a la plancha",
-        "precio": 2700,
-        "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931470/Sweet%20Bistro/Platos%20principales/Pescados/njqhxozqoq1hz6arnhgr.jpg",
-        "descripcion": "Sin guarnición"
-      },
-      {
-        "nombre": "Merluza a la milanesa",
-        "precio": 2800,
-        "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931469/Sweet%20Bistro/Platos%20principales/Pescados/a3ueptdixvk7o0to5uf4.jpg",
-        "descripcion": "Sin guarnición"
-      }
-    ],
-    "tortillas_omelettes_tartas": [
-      {
-        "nombre": "Tarta mixta",
-        "precio": 1450,
-        "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931470/Sweet%20Bistro/Platos%20principales/Tortillas-Omelettes-Tartas/w1dosx0vjlc5y84es8qv.jpg",
-        "descripcion": "Verdura y calabaza"
-      },
-      {
-        "nombre": "Tarta Jamon y queso",
-        "precio": 2000,
-        "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931470/Sweet%20Bistro/Platos%20principales/Tortillas-Omelettes-Tartas/hpvk96myflzaxhiczh4x.jpg"
-      },
-      {
-        "nombre": "Tarta Puerro y zapallitos",
-        "precio": 1400,
-        "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931498/Sweet%20Bistro/Platos%20principales/Tortillas-Omelettes-Tartas/psnovx5vxtul4wkzglvo.jpg"
-      },
-      {
-        "nombre": "Tortilla de verdura",
-        "precio": 2300,
-        "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931471/Sweet%20Bistro/Platos%20principales/Tortillas-Omelettes-Tartas/jdryossscpmpxvi493lh.jpg"
-      },
-      {
-        "nombre": "Tortilla de zapallitos",
-        "precio": 2500,
-        "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931471/Sweet%20Bistro/Platos%20principales/Tortillas-Omelettes-Tartas/snpjlerbcvm7ddxebpqb.jpg"
-      },
-      {
-        "nombre": "Tortilla clásica",
-        "precio": 3200,
-        "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931470/Sweet%20Bistro/Platos%20principales/Tortillas-Omelettes-Tartas/actn20pkqmcucjqj58ai.jpg"
-      },
-      {
-        "nombre": "Tortilla de cebolla y morron",
-        "precio": 2650,
-        "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931471/Sweet%20Bistro/Platos%20principales/Tortillas-Omelettes-Tartas/ufiaqjdttcymo3vlhdsb.jpg"
-      },
-      {
-        "nombre": "Omelette de muzzarella y tomate",
-        "precio": 2200,
-        "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931470/Sweet%20Bistro/Platos%20principales/Tortillas-Omelettes-Tartas/nxrubpn1iq64cgs0wfxm.jpg"
-      },
-      {
-        "nombre": "Omelette muzzarella y jamon",
-        "precio": 2200,
-        "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931470/Sweet%20Bistro/Platos%20principales/Tortillas-Omelettes-Tartas/savsgkxvmjjtbxffras6.jpg"
-      },
-      {
-        "nombre": "Omelette de muzzarella",
-        "precio": 1900,
-        "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931470/Sweet%20Bistro/Platos%20principales/Tortillas-Omelettes-Tartas/vnwggzgpzdcp4qfa7dig.jpg"
-      },
-      {
-        "nombre": "Omelette de muzzarella y cebolla",
-        "precio": 2200,
-        "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931470/Sweet%20Bistro/Platos%20principales/Tortillas-Omelettes-Tartas/h4cw2fd5a7jo5ehtkgsq.jpg"
-      }
-    ],
-    "guarniciones": [
-      {
-        "nombre": "Puré de papas",
-        "precio": 1000,
-        "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931465/Sweet%20Bistro/Platos%20principales/Guarnicion/uub4cm9n7mrcntsndtle.jpg"
-      },
-      {
-        "nombre": "Papas fritas",
-        "precio": 700,
-        "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931465/Sweet%20Bistro/Platos%20principales/Guarnicion/bvuue0gtbx8kgdzkoroy.jpg"
-      },
-      {
-        "nombre": "Papas fritas a la provenzal",
-        "precio": 500,
-        "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931464/Sweet%20Bistro/Platos%20principales/Guarnicion/si0qhyqfffsmqd3flxpp.jpg"
-      },
-      {
-        "nombre": "Batatas fritas",
-        "precio": 800,
-        "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931464/Sweet%20Bistro/Platos%20principales/Guarnicion/befx3zm0knn9m5vwy6d8.jpg"
-      },
-      {
-        "nombre": "Ensalada",
-        "precio": 700,
-        "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931465/Sweet%20Bistro/Platos%20principales/Guarnicion/sv8yhfdh1pktz5b96l1a.jpg"
-      },
-      {
-        "nombre": "Puré mixto",
-        "precio": 750,
-        "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931464/Sweet%20Bistro/Platos%20principales/Guarnicion/befx3zm0knn9m5vwy6d8.jpg"
-      },
-      {
-        "nombre": "Puré de calabaza",
-        "precio": 700,
-        "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931465/Sweet%20Bistro/Platos%20principales/Guarnicion/rvziwi7r00wrhtwf4ut5.jpg"
-      }
-    ]
-  },
+  "pastas": [
+    {
+      "nombre": "Ñoquis",
+      "precio": 1800,
+      "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931465/Sweet%20Bistro/Platos%20principales/Pastas/wcvtgufnl2spq2lnhw2y.jpg"
+    },
+    {
+      "nombre": "Ravioles",
+      "precio": 2200,
+      "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931469/Sweet%20Bistro/Platos%20principales/Pastas/loo5iflfvhxxjendeyz6.jpg",
+      "descripcion": "Pollo y verdura o ricotta"
+    },
+    {
+      "nombre": "Sorrentinos",
+      "precio": 2650,
+      "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931469/Sweet%20Bistro/Platos%20principales/Pastas/xly8odpopjfwcbeqeko2.jpg",
+      "descripcion": "Calabaza y muzzarella, de espinaca y parmesano, de jamon y muzzarella"
+    },
+    {
+      "nombre": "Spaguettis",
+      "precio": 1450,
+      "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931468/Sweet%20Bistro/Platos%20principales/Pastas/ewo9mm1gu9u8kxjngukv.jpg"
+    }
+  ],
+  "salsas": [
+    {
+      "nombre": "Cherry, Rucula y Champignones",
+      "precio": 950,
+      "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931467/Sweet%20Bistro/Platos%20principales/Pastas/rwrntruyxjk5xlf4e52u.jpg"
+    },
+    {
+      "nombre": "Albahaca, oliva y ajo",
+      "precio": 900,
+      "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931467/Sweet%20Bistro/Platos%20principales/Pastas/gzekcn5finhfcovkmqk8.jpg"
+    },
+    {
+      "nombre": "Bolognesa",
+      "precio": 1200,
+      "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931467/Sweet%20Bistro/Platos%20principales/Pastas/rjuojzcmv2bwuajeuvuu.jpg"
+    },
+    {
+      "nombre": "Atilio",
+      "precio": 900,
+      "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931466/Sweet%20Bistro/Platos%20principales/Pastas/xdw6fqfsj27bshmszmvm.jpg"
+    },
+    {
+      "nombre": "Crema, panceta y verdeo",
+      "precio": 1450,
+      "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931469/Sweet%20Bistro/Platos%20principales/Pastas/fjs7omkgm8mxxvfwbgke.jpg"
+    },
+    {
+      "nombre": "Crema de champignones",
+      "precio": 1450,
+      "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931468/Sweet%20Bistro/Platos%20principales/Pastas/rjhgykw8v29c4ve1jhso.jpg"
+    },
+    {
+      "nombre": "Parissiene",
+      "precio": 1450,
+      "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931468/Sweet%20Bistro/Platos%20principales/Pastas/eterkrbyk5gs2pz2zjka.jpg"
+    },
+    {
+      "nombre": "Cuatro Quesos",
+      "precio": 1450,
+      "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931468/Sweet%20Bistro/Platos%20principales/Pastas/fir8xwt4clstlxbaohga.jpg"
+    },
+    {
+      "nombre": "A la crema o rosa",
+      "precio": 960,
+      "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931468/Sweet%20Bistro/Platos%20principales/Pastas/pvmobldtjlgdzt481lqa.jpg"
+    }
+  ],
+  "carnes": [
+    {
+      "nombre": "Bife de costilla",
+      "precio": 3500,
+      "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931463/Sweet%20Bistro/Platos%20principales/Carnes/ecgainykutm7snh0blms.jpg"
+    },
+    {
+      "nombre": "Matambrito de cerdo",
+      "precio": 3000,
+      "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931464/Sweet%20Bistro/Platos%20principales/Carnes/n1nlajy1ebu8zjadztv2.jpg"
+    },
+    {
+      "nombre": "Bife de lomo",
+      "precio": 4600,
+      "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931463/Sweet%20Bistro/Platos%20principales/Carnes/ubzvauen1hxvg5fnes2k.jpg"
+    },
+    {
+      "nombre": "Bife de chorizo",
+      "precio": 5400,
+      "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931463/Sweet%20Bistro/Platos%20principales/Carnes/pdg2fipo6gqywz1c2tgs.jpg"
+    },
+    {
+      "nombre": "Pechuga",
+      "precio": 2800,
+      "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931464/Sweet%20Bistro/Platos%20principales/Carnes/pm8a8pa6b455dwfotnem.jpg"
+    },
+    {
+      "nombre": "Pata muslo",
+      "precio": 2300,
+      "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931464/Sweet%20Bistro/Platos%20principales/Carnes/iwnva48orhzxxrvt43u1.jpg"
+    }
+  ],
+  "lomitos": [
+    {
+      "nombre": "Muzzarella, tomates, albahaca",
+      "precio": 3000,
+      "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931464/Sweet%20Bistro/Platos%20principales/Carnes/hkvidgucnc64tngn8ged.jpg"
+    },
+    {
+      "nombre": "Jamon y muzzarella",
+      "precio": 4800,
+      "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931463/Sweet%20Bistro/Platos%20principales/Carnes/evagjtyoujmtfrrkccdt.jpg"
+    },
+    {
+      "nombre": "Simple",
+      "precio": 4100,
+      "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931464/Sweet%20Bistro/Platos%20principales/Carnes/ay5tcu6dmvcslr21nkwu.jpg"
+    },
+    {
+      "nombre": "Completo",
+      "precio": 5100,
+      "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931464/Sweet%20Bistro/Platos%20principales/Carnes/oxdpukxw4m2pw722ukmo.jpg",
+      "descripcion": "Lechuga, tomate, jamon y queso"
+    }
+  ],
+  "pescados": [
+    {
+      "nombre": "Merluza a la romana",
+      "precio": 2800,
+      "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931469/Sweet%20Bistro/Platos%20principales/Pescados/sf0l3lzguh2m28veeipv.jpg",
+      "descripcion": "Sin guarnición"
+    },
+    {
+      "nombre": "Merluza a la plancha",
+      "precio": 2700,
+      "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931470/Sweet%20Bistro/Platos%20principales/Pescados/njqhxozqoq1hz6arnhgr.jpg",
+      "descripcion": "Sin guarnición"
+    },
+    {
+      "nombre": "Merluza a la milanesa",
+      "precio": 2800,
+      "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931469/Sweet%20Bistro/Platos%20principales/Pescados/a3ueptdixvk7o0to5uf4.jpg",
+      "descripcion": "Sin guarnición"
+    }
+  ],
+  "tortillas_omelettes_tartas": [
+    {
+      "nombre": "Tarta mixta",
+      "precio": 1450,
+      "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931470/Sweet%20Bistro/Platos%20principales/Tortillas-Omelettes-Tartas/w1dosx0vjlc5y84es8qv.jpg",
+      "descripcion": "Verdura y calabaza"
+    },
+    {
+      "nombre": "Tarta Jamon y queso",
+      "precio": 2000,
+      "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931470/Sweet%20Bistro/Platos%20principales/Tortillas-Omelettes-Tartas/hpvk96myflzaxhiczh4x.jpg"
+    },
+    {
+      "nombre": "Tarta Puerro y zapallitos",
+      "precio": 1400,
+      "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931498/Sweet%20Bistro/Platos%20principales/Tortillas-Omelettes-Tartas/psnovx5vxtul4wkzglvo.jpg"
+    },
+    {
+      "nombre": "Tortilla de verdura",
+      "precio": 2300,
+      "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931471/Sweet%20Bistro/Platos%20principales/Tortillas-Omelettes-Tartas/jdryossscpmpxvi493lh.jpg"
+    },
+    {
+      "nombre": "Tortilla de zapallitos",
+      "precio": 2500,
+      "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931471/Sweet%20Bistro/Platos%20principales/Tortillas-Omelettes-Tartas/snpjlerbcvm7ddxebpqb.jpg"
+    },
+    {
+      "nombre": "Tortilla clásica",
+      "precio": 3200,
+      "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931470/Sweet%20Bistro/Platos%20principales/Tortillas-Omelettes-Tartas/actn20pkqmcucjqj58ai.jpg"
+    },
+    {
+      "nombre": "Tortilla de cebolla y morron",
+      "precio": 2650,
+      "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931471/Sweet%20Bistro/Platos%20principales/Tortillas-Omelettes-Tartas/ufiaqjdttcymo3vlhdsb.jpg"
+    },
+    {
+      "nombre": "Omelette de muzzarella y tomate",
+      "precio": 2200,
+      "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931470/Sweet%20Bistro/Platos%20principales/Tortillas-Omelettes-Tartas/nxrubpn1iq64cgs0wfxm.jpg"
+    },
+    {
+      "nombre": "Omelette muzzarella y jamon",
+      "precio": 2200,
+      "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931470/Sweet%20Bistro/Platos%20principales/Tortillas-Omelettes-Tartas/savsgkxvmjjtbxffras6.jpg"
+    },
+    {
+      "nombre": "Omelette de muzzarella",
+      "precio": 1900,
+      "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931470/Sweet%20Bistro/Platos%20principales/Tortillas-Omelettes-Tartas/vnwggzgpzdcp4qfa7dig.jpg"
+    },
+    {
+      "nombre": "Omelette de muzzarella y cebolla",
+      "precio": 2200,
+      "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931470/Sweet%20Bistro/Platos%20principales/Tortillas-Omelettes-Tartas/h4cw2fd5a7jo5ehtkgsq.jpg"
+    }
+  ],
+  "guarniciones": [
+    {
+      "nombre": "Puré de papas",
+      "precio": 1000,
+      "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931465/Sweet%20Bistro/Platos%20principales/Guarnicion/uub4cm9n7mrcntsndtle.jpg"
+    },
+    {
+      "nombre": "Papas fritas",
+      "precio": 700,
+      "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931465/Sweet%20Bistro/Platos%20principales/Guarnicion/bvuue0gtbx8kgdzkoroy.jpg"
+    },
+    {
+      "nombre": "Papas fritas a la provenzal",
+      "precio": 500,
+      "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931464/Sweet%20Bistro/Platos%20principales/Guarnicion/si0qhyqfffsmqd3flxpp.jpg"
+    },
+    {
+      "nombre": "Batatas fritas",
+      "precio": 800,
+      "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931464/Sweet%20Bistro/Platos%20principales/Guarnicion/befx3zm0knn9m5vwy6d8.jpg"
+    },
+    {
+      "nombre": "Ensalada",
+      "precio": 700,
+      "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931465/Sweet%20Bistro/Platos%20principales/Guarnicion/sv8yhfdh1pktz5b96l1a.jpg"
+    },
+    {
+      "nombre": "Puré mixto",
+      "precio": 750,
+      "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931464/Sweet%20Bistro/Platos%20principales/Guarnicion/befx3zm0knn9m5vwy6d8.jpg"
+    },
+    {
+      "nombre": "Puré de calabaza",
+      "precio": 700,
+      "imagen": "https://res.cloudinary.com/dbdizdih0/image/upload/v1702931465/Sweet%20Bistro/Platos%20principales/Guarnicion/rvziwi7r00wrhtwf4ut5.jpg"
+    }
+  ],
   "salteados_cocinaSB": [
     {
       "nombre": "Pastel de papas",

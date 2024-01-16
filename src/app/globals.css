@@ -11,14 +11,14 @@ html {
 }
 
 body {
-  /* background-color: #202020; */
-  background-image: linear-gradient(
+  background-color: #000000;
+  /* background-image: linear-gradient(
   180deg,
   hsl(0deg 0% 0%) 0%,
   hsl(0deg 0% 6%) 33%,
   hsl(0deg 0% 13%) 67%,
   hsl(0deg 0% 19%) 100%
-);
+); */
   margin: 0;
   color: white;
 }
@@ -29,4 +29,17 @@ p {
 
 p strong {
   color: #fab005;
+}
+
+.menu::-webkit-scrollbar {
+  width: 12px;
+}
+
+.menu::-webkit-scrollbar-track {
+  background-color: rgb(255 255 255 / 0.1);
+}
+
+.menu::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background-color: #fab005;
 }

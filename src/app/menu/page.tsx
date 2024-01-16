@@ -1,25 +1,27 @@
-import CardContainer from "@/components/Card-container";
+import CardContainer from "@/components/Card";
 import Foods from "@/components/Foods";
 import Footer from "@/components/Footer";
 import MenuNavbar from "@/components/MenuNavbar";
+import { getData } from "../api/routes";
 
 const MenuPage = async () => {
+  const allFoods = await getData();
 
   return (
-    <section className="grid grid-cols-5 grid-rows-5 gap-4 py-20 px-10 w-full h-full">
-      <div
-        className="row-span-4 backdrop-blur-md
+    <section className="grid grid-cols-1 grid-rows-3 lg:grid-cols-5  lg:grid-rows-5 gap-2 py-2 px-2 lg:py-5 lg:px-5 w-full h-full">
+      <article
+        className="col-span-5 row-span-3 lg:col-span-1 lg:row-span-4 backdrop-blur-md
           border border-black/10
-          shadow-inner shadow-[#fab005]/30 relative"
+         relative bg-[#121212] rounded-md"
       >
-        <MenuNavbar/>
-      </div>
-      <div className="col-span-5 col-start-1 row-start-5">
+        <MenuNavbar />
+      </article>
+      <article className="menu col-span-5 lg:col-span-5 lg:row-span-4 lg:col-start-2 lg:row-start-1 p-10 rounded-md bg-no-repeat bg-cover overflow-y-scroll max-h-[1200px] scroll-smooth" style={{backgroundImage:"linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url(/bg-menu.jpg)"}}>
+        <Foods menuData={allFoods} />
+      </article>
+      <article className="col-span-5 lg:col-span-5 lg:col-start-1 lg:row-start-5 rounded-md bg-[#121212]">
         <Footer />
-      </div>
-      <div className="col-span-5 row-span-4 col-start-2 row-start-1 shadow-inner shadow-[#fab005]/30 p-10">
-        <Foods/>
-      </div>
+      </article>
     </section>
   );
 };
