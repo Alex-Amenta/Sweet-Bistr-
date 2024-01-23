@@ -17,7 +17,7 @@ const Footer = () => {
               className="flex items-center mb-4 sm:mb-5 space-x-2 rtl:space-x-reverse"
             >
               <img
-                src="/logo-bistro.png"
+                src="/logo-bistro.webp"
                 className="w-20 ml-5"
                 alt="Sweet Bistro Logo"
               />

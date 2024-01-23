@@ -13,14 +13,15 @@ import CloseIcon from "@mui/icons-material/Close";
 import { usePathname } from "next/navigation";
 
 const homeLinks: Links[] = [
-  { name: "Inicio", href: "/" },
-  { name: "Menu", href: "/#menu" },
+  { name: "Inicio", href: "#" },
   { name: "Sobre Nosotros", href: "/#sobre-nosotros" },
+  { name: "Menu", href: "/#menu" },
   { name: "Contacto", href: "/#contacto" },
 ];
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [activeSection, setActiveSection] = useState("Inicio");
 
   const pathname = usePathname();
 
@@ -38,8 +39,8 @@ const Navbar = () => {
           <div className="flex items-center space-x-3 rtl:space-x-reverse">
             <Link href="/">
               <img
-                className="w-20"
-                src="/logo-bistro.png"
+                className="w-14 md:w-20 "
+                src="/logo-bistro.webp"
                 alt="Logo de Sweet Bistró"
               />
             </Link>
@@ -67,7 +68,11 @@ const Navbar = () => {
                 <li key={index} onClick={toggleMenu}>
                   <Link
                     href={link.href}
-                    className={"hover:underline decoration-yellow-400"}
+                    className={`hover:underline underline-offset-4 decoration-yellow-400 ${
+                      activeSection === link.name &&
+                      "underline decoration-yellow-400"
+                    }`}
+                    onClick={() => setActiveSection(link.name)}
                   >
                     {link.name}
                   </Link>

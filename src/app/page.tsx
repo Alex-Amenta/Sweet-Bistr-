@@ -11,12 +11,12 @@ export default function Home() {
         <HomePage />
       </section>
 
-      <section id="sobre-nosotros" className="my-32">
+      <section id="sobre-nosotros" className="my-32 scroll-mt-28">
         <h1 className="text-center uppercase text-4xl md:text-5xl">Sobre Nosotros</h1>
         <AboutUs />
       </section>
 
-      <section id="menu" className="my-32">
+      <section id="menu" className="my-32 scroll-mt-28">
       <h1 className="text-center uppercase mb-7 text-4xl md:text-5xl">Nuestro Menú</h1>
         <MenuSection/>
       </section>

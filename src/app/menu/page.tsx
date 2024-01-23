@@ -1,4 +1,3 @@
-import CardContainer from "@/components/Card";
 import Foods from "@/components/Foods";
 import Footer from "@/components/Footer";
 import MenuNavbar from "@/components/MenuNavbar";
@@ -16,7 +15,8 @@ const MenuPage = async () => {
       >
         <MenuNavbar />
       </article>
-      <article className="menu col-span-5 lg:col-span-5 lg:row-span-4 lg:col-start-2 lg:row-start-1 p-10 rounded-md bg-no-repeat bg-cover overflow-y-scroll max-h-[1200px] scroll-smooth" style={{backgroundImage:"linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url(/bg-menu.jpg)"}}>
+      <article className="menu col-span-5 lg:col-span-5 lg:row-span-4 lg:col-start-2 lg:row-start-1 p-10 rounded-md bg-no-repeat bg-cover overflow-y-scroll max-h-[1200px] scroll-smooth" 
+      style={{backgroundImage:"linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url(/bg-menu.webp)"}}>
         <Foods menuData={allFoods} />
       </article>
       <article className="col-span-5 lg:col-span-5 lg:col-start-1 lg:row-start-5 rounded-md bg-[#121212]">

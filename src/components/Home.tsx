@@ -18,13 +18,13 @@ const HomePage = () => {
       </div>
       <div className="flex relative animate-fade-down animate-once animate-duration-[1500ms] animate-ease-out animate-fill-both">
         <img
-          className="w-[1000px] absolute z-10 h-full"
-          src="/fideos-harina.png"
+          className="w-auto md:w-[1000px] absolute z-10 h-full"
+          src="/fideos-harina.webp"
           alt=""
         />
         <img
-          className="w-[1500px] h-full animate-fade-down animate-once animate-duration-[3000ms] animate-ease-out animate-fill-both"
-          src="/tomates.png"
+          className="w-auto md:w-[1500px] h-full animate-fade-down animate-once animate-duration-[3000ms] animate-ease-out animate-fill-both"
+          src="/tomates.webp"
           alt=""
         />
       </div>

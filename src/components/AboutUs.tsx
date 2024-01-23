@@ -23,9 +23,9 @@ const AboutUs = () => {
         </p>
 
         <div className="mt-4 text-wrap">
-          <h3 className="text-xl mb-2 uppercase text-yellow-300">
+          <h2 className="text-xl mb-2 uppercase text-yellow-300">
             Ubicación y Horarios
-          </h3>
+          </h2>
           <p>
             Te esperamos en{" "}
             <a
@@ -57,7 +57,7 @@ const AboutUs = () => {
       </article>
       <article>
         <img
-          src="/restaurant-bistro.jpeg"
+          src="/restaurant-bistro.webp"
           alt="Foto de restaurante Sweet Bistró"
           className="rounded shadow-lg w-[700px] md:w-[1000px]"
         />
