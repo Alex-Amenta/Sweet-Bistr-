@@ -1,5 +1,6 @@
 <h1>Sweet Bistró</h1>
-![500shots_so](https://github.com/Alex-Amenta/Sweet-Bistro/assets/111576219/795a4f10-65f6-4eae-a6b9-8c3244462ee5)
+![image](https://github.com/Alex-Amenta/Sweet-Bistro/assets/111576219/0126939f-7828-4cb1-b357-0e92ccec542d)
+
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
