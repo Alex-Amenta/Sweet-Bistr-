@@ -1,5 +1,5 @@
 <h1>Sweet Bistró</h1>
-![image](https://github.com/Alex-Amenta/Sweet-Bistro/assets/111576219/0126939f-7828-4cb1-b357-0e92ccec542d)
+<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/111576219/299114737-0126939f-7828-4cb1-b357-0e92ccec542d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240123%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240123T220057Z&X-Amz-Expires=300&X-Amz-Signature=ab486af604de8c7826262b1889b05afb3acca027ee108cf017d664323edb9902&X-Amz-SignedHeaders=host&actor_id=111576219&key_id=0&repo_id=740559373"/>
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
