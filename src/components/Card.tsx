@@ -10,8 +10,8 @@ const Card: React.FC<CardProps> = ({ title, items }) => {
   const id = title.replace(/ /g, "");
 
   return (
-    <section className="mb-56 scroll-mt-20" id={id}>
-      <h2 className="text-5xl mb-10 uppercase text-[#fab005] drop-shadow-2xl text-wrap">
+    <section className="mb-40 md:mb-56 scroll-mt-20" id={id}>
+      <h2 className="text-5xl text-center md:text-left mb-10 uppercase text-[#fab005] font-bold text-wrap">
         {title}
       </h2>
       <article className="flex xl:justify-start xl:gap-12 justify-center items-center gap-20 flex-wrap text-black">
@@ -26,6 +26,7 @@ const Card: React.FC<CardProps> = ({ title, items }) => {
               width={300}
               height={300}
               alt={`Imagen de ${item.nombre}`}
+              loading="lazy"
             />
             <h2 className="font-semibold">{item.nombre}</h2>
             <h3 className="font-bold text-green-900 mb-3">${item.precio}</h3>
