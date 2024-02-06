@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
     <main className="mt-7 px-10 md:px-28">
-      <section id='inicio' className="flex justify-center items-center gap-10 max-sm:flex-col">
+      <section id='inicio' className="flex justify-center items-center gap-10 max-sm:flex-col-reverse">
         <HomePage />
       </section>
 

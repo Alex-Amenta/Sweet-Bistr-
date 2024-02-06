@@ -2,7 +2,7 @@ const HomePage = () => {
   return (
     <>
       <div className="max-w-2xl animate-fade-down animate-once animate-duration-[1500ms] animate-ease-out animate-fill-both">
-        <h1 className="text-4xl mb-5 uppercase md:text-7xl">Sweet Bistró</h1>
+        <h1 className="text-4xl mb-5 uppercase md:text-7xl max-sm:text-center">Sweet Bistró</h1>
         <p className="text-wrap">
           Somos un lugar de encuentro donde podrás disfrutar de{" "}
           <strong>una experiencia única</strong> que combina la exquisitez de un

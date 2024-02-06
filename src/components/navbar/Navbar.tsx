@@ -53,7 +53,7 @@ const Navbar = () => {
           <div
             className={`${
               isOpen ? "flex" : "hidden"
-            } absolute top-0 right-0 pl-14 pr-5 pb-[8rem] pt-5 rounded-md bg-black/95 shadow-md shadow-white/30 md:flex items-center justify-center md:bg-transparent md:shadow-none md:p-7 transition-opacity transition-max-h ease-in-out duration-300`}
+            } absolute top-0 right-0 pl-14 pr-5 pb-[8rem] pt-5 rounded-md bg-black/95 shadow-md shadow-white/30 md:flex items-center justify-center md:bg-transparent md:shadow-none md:p-7 md:pr-32 transition-opacity transition-max-h ease-in-out duration-300`}
           >
             <ul className="flex flex-col gap-y-6 items-start w-full md:flex-row md:items-center justify-center gap-x-7">
               {isOpen && (
