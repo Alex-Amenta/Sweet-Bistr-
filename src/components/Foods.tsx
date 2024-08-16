@@ -8,7 +8,7 @@ interface FoodsProps {
 const Foods: React.FC<FoodsProps> = async ({ menuData }) => {
   
   return (
-    <section className="">
+    <section>
       <article>
       <Card title="Entradas" items={menuData.entradas} />
       <Card title="Pastas" items={menuData.pastas} />

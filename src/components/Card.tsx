@@ -29,7 +29,7 @@ const Card: React.FC<CardProps> = ({ title, items }) => {
               loading="lazy"
             />
             <h2 className="font-semibold">{item.nombre}</h2>
-            <h3 className="font-bold text-green-900 mb-3">${item.precio}</h3>
+            <h3 className="font-bold mb-3">${item.precio}</h3>
           </div>
         ))}
       </article>

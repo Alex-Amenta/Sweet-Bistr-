@@ -55,8 +55,7 @@ const MenuSection = () => {
 
   return (
     <section
-      className="w-full max-w-[1400px]
-    grid grid-cols-10 auto-rows-[25rem] gap-4 mx-auto p-1 md:px-12 lg:px-20"
+      className="grid grid-cols-9 auto-rows-[25rem] gap-4 mx-auto p-1"
     >
       {bentoSections.map((section, index) => (
         <article
@@ -80,7 +79,7 @@ const MenuSection = () => {
                 src={section.image}
                 className="transition-scale absolute bottom-0 left-0 top-0
                   -z-10 h-full w-full
-                  bg-cover bg-center bg-no-repeat opacity-90 bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110 object-cover"
+                  bg-cover bg-center bg-no-repeat opacity-90 bg-blend-luminosity duration-700 ease-in-out group-hover:scale-110 object-cover"
                 alt={`Imagen de ${section.title}`}
                 style={{ backgroundImage: "url(section.image)" }}
               />

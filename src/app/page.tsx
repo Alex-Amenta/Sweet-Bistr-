@@ -16,7 +16,7 @@ export default function Home() {
         <AboutUs />
       </section>
 
-      <section id="menu" className="my-32 scroll-mt-28">
+      <section id="menu" className="my-32 scroll-mt-28 flex flex-col justify-center items-center">
       <h1 className="text-center uppercase mb-7 text-4xl md:text-5xl">Nuestro Menú</h1>
         <MenuSection/>
       </section>
