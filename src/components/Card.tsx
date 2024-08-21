@@ -18,7 +18,7 @@ const Card: React.FC<CardProps> = ({ title, items }) => {
         {items?.map((item, index) => (
           <div
             key={index}
-            className="flex flex-col justify-center items-center gap-2 p-1 w-[320px] h-[400px] bg-white rounded shadow-lg shadow-black/20"
+            className="flex flex-col justify-center items-center gap-2 p-1 w-[320px] h-[400px] bg-gray-50 text-black rounded shadow-lg shadow-black/20"
           >
             <Image
               src={`${item.imagen ? item.imagen : "/default-image.webp"}`}
@@ -28,7 +28,7 @@ const Card: React.FC<CardProps> = ({ title, items }) => {
               alt={`Imagen de ${item.nombre}`}
               loading="lazy"
             />
-            <h2 className="font-semibold">{item.nombre}</h2>
+            <h2 className="font-semibold text-lg">{item.nombre}</h2>
             <h3 className="font-bold mb-3">${item.precio}</h3>
           </div>
         ))}

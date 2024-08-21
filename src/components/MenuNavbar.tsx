@@ -43,9 +43,9 @@ const MenuNavbar = () => {
               href={link.href}
               className={`${
                 activeCategory === link.name
-                  ? "border-[#fab005]"
+                  ? "bg-[#fab005] text-black border-none"
                   : "border-black/20"
-              } block w-full border hover:border-[#fab005] lg:p-2 bg-white/10 backdrop-blur-2xl rounded-lg p-3 text-wrap mb-4 text-slate-300`}
+              } block w-full border hover:border-[#fab005] lg:p-2 bg-white/10 backdrop-blur-2xl rounded-lg p-3 text-wrap font-semibold mb-4`}
               onClick={() => setActiveCategory(link.name)}
             >
               {link.name}
@@ -53,10 +53,10 @@ const MenuNavbar = () => {
           </li>
         ))}
         <a
-          className="px-5 py-2 bg-white text-black rounded-lg hover:bg-white/80"
+          className="px-5 py-2 bg-black rounded-lg hover:text-white/80 text-center"
           href="/"
         >
-          <span className="inline-flex align-middle mr-1">
+          <span className="inline-flex align-middle mr-3">
             <ArrowBackIcon />
           </span>
           Volver
