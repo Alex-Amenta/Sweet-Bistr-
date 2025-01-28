@@ -1,21 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { Links } from "./navbar/Navbar";
 import { useState } from "react";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
-
-const menuLinks: Links[] = [
-  { name: "Entradas", href: "/menu#Entradas" },
-  { name: "Comidas Principales", href: "/menu#Pastas" },
-  { name: "Cocina SB y Salteados", href: "/menu#CocinaSBySalteados" },
-  { name: "Infantil", href: "/menu#Infantil" },
-  { name: "Ensaladas", href: "/menu#Ensaladas" },
-  { name: "Hamburguesas y Milanesas", href: "/menu#HamburguesasyMilanesas" },
-  { name: "Empanadas y Canastitas", href: "/menu#EmpanadasyCanastitas" },
-  { name: "Pizzas", href: "/menu#Pizzas" },
-  { name: "Postres", href: "/menu#Postres" },
-];
+import { menuLinks } from "@/constants/menu-links";
 
 const MenuNavbar = () => {
   const [activeCategory, setActiveCategory] = useState("Entradas");
@@ -44,8 +32,8 @@ const MenuNavbar = () => {
               className={`${
                 activeCategory === link.name
                   ? "bg-[#fab005] text-black border-none"
-                  : "border-black/20"
-              } block w-full border hover:border-[#fab005] lg:p-2 bg-white/10 backdrop-blur-2xl rounded-lg p-3 text-wrap font-semibold mb-4`}
+                  : "border-black/20 bg-white/10"
+              } block w-full border hover:border-[#fab005] lg:p-2  backdrop-blur-2xl rounded-lg p-3 text-wrap font-semibold mb-4`}
               onClick={() => setActiveCategory(link.name)}
             >
               {link.name}

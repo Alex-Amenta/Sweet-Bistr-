@@ -1,14 +1,12 @@
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import PhoneIcon from "@mui/icons-material/Phone";
-import Image from "next/image";
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import LocalFireDepartmentIcon from "@mui/icons-material/LocalFireDepartment";
 
 const Footer = () => {
   return (
-    <>
       <footer id="contacto" className="bg-[#121212] shadow">
         <section className="w-full max-w-screen-2xl mx-auto p-4 md:py-8">
           <article className="lg:flex lg:items-center lg:justify-between">
@@ -91,7 +89,6 @@ const Footer = () => {
           </span>
         </section>
       </footer>
-    </>
   );
 };
 

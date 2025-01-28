@@ -1,6 +1,5 @@
 const HomePage = () => {
   return (
-    <>
       <section className="relative lg:-mt-10 flex flex-col items-center justify-center animate-fade-down animate-once animate-duration-[1500ms] animate-ease-out animate-fill-both">
         {/* Primer imagen */}
         <figure className="relative max-sm:w-80 md:max-w-[45%] md:absolute z-10">
@@ -41,7 +40,6 @@ const HomePage = () => {
           </p>
         </div>
       </section>
-    </>
   );
 };
 

@@ -1,23 +1,12 @@
 "use client";
 
-export interface Links {
-  name: string;
-  href: string;
-}
-
 import Link from "next/link";
 import styles from "./Navbar.module.css";
 import { useState } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import { usePathname } from "next/navigation";
-
-const homeLinks: Links[] = [
-  { name: "Inicio", href: "#" },
-  { name: "Sobre Nosotros", href: "/#sobre-nosotros" },
-  { name: "Menu", href: "/#menu" },
-  { name: "Contacto", href: "/#contacto" },
-];
+import { homeLinks } from "@/constants/home-links";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
