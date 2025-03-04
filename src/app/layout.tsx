@@ -28,7 +28,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <BackgroundHome />
         <div className="text-center bg-[#ff00b626] py-2 text-sm">
-        📢 ¡IMPORTANTE! Este restaurante ha cerrado permanentemente.
+        📢 ¡IMPORTANTE! Este restaurante ha cerrado temporalmente.
         </div>
         <Navbar />
         {children}
